@@ -6,13 +6,14 @@
 
 :root {
     font-family: "Poppins", sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
     font-size: 62.5%;
     color: black;
 }
 
-body {
+section {
+    margin: 100px 0;
 }
 
 h1 {
@@ -24,22 +25,23 @@ h2 {
 }
 
 h3 {
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 p {
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 /* Header */
 
 header {
-    height: 10svh;
+    background-color: #FAFAFA;
+    position: sticky;
+    top: 0px;
+    height: 5svh;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    position: sticky;
-    top: 0;
 }
 
 header .volvo-icon {
@@ -111,7 +113,7 @@ header ul li a {
 }
 
 .hero {
-    width: 20vw;
+    width: 25vw;
     height: 20svh;
     display: flex;
     flex-direction: column;
@@ -132,4 +134,37 @@ header ul li a {
 
 .hero_button:hover {
     background-color: gainsboro;
+}
+
+/* Sales */
+
+.sales {
+    margin: 8svh 10vw;
+}
+
+.sales-headings-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sales-text-card {
+    width: 350px;
+    height: 180px;
+    padding: 30px;
+    background-color:rgba(233, 250, 250, 0.411);
+    text-align: left;
+}
+
+.sales-text-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.sales-text-card:hover {
+    background-color:rgba(229, 231, 231, 0.726);
 }
